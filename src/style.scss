@@ -5,12 +5,12 @@
  * Replace them with your own styles or remove the file completely.
  */
 
-$test-color: "pink";
+$font-color: #21759b;
 $border-color: #f00;
 
 .wp-block-create-block-boilerplate {
 	background-color: #21759b;
-	color: #fff;
 	padding: 2px;
 	border: 1px solid $border-color;
+	color: $font-colors;
 }
