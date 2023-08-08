@@ -18,6 +18,10 @@
 	"stylelint": {
 		"extends": "@wordpress/stylelint-config/scss"
 	},
+	"lint-staged" : {
+		"*.js": ["wp-scripts lint-js", "wp-scripts format"],
+	 "*.scss" : "npx stylelint --fix"
+	 },
 	"dependencies": {
 		"@wordpress/block-editor": "^6.1.7",
 		"@wordpress/blocks": "^9.1.4",
@@ -30,6 +34,7 @@
 		"@wordpress/stylelint-config": "^19.0.5",
 		"eslint-config-prettier": "^7.2.0",
 		"husky": "8.0.3",
+		"lint-staged": "13.2.3",
 		"stylelint": "^13.13.1"
 	}
 }
