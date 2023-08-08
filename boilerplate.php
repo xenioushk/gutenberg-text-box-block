@@ -2,10 +2,10 @@
 
 /**
  * Plugin Name:       Boilerplate
- * Description:       Example block written with ESNext standard and JSX support – build step required.
- * Requires at least: 5.7
+ * Description:       	Example block written with ESNext standard and JSX support – build step required.
+ * Requires at least:  6.0
  * Requires PHP:      7.0
- * Version:           0.1.0
+ * Version:           1.0.0
  * Author:            The WordPress Contributors
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
